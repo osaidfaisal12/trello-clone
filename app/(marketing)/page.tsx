@@ -38,7 +38,7 @@ const MarketingPage = () => {
                     </p>
                 </div>
                 <h1 className='text-3xl text-neutral-800 mb-6 md:text-6xl font-bold'>Taskify helps team move</h1>
-                <div className='text-3xl md:text-6xl font-bold text-white bg-gradient-to-r from-fuchsia-700 to-pink-700 p-2 px-4 pb-4 w-fit'>
+                <div className='text-3xl md:text-6xl font-bold text-white bg-gradient-to-r from-fuchsia-700 to-pink-700 p-2 px-4 pb-2 rounded-md w-fit'>
                     work forward.
                 </div>
                 <div className={cn(
@@ -48,7 +48,7 @@ const MarketingPage = () => {
                     Collaborate, manage projects, and reach new productivity peaks. From high rises to the home office, the way your team works is unique - accomplish it all with Taskify.
                 </div>
                 <Button className='mt-6' size='lg' asChild>
-                    <Link href='/signup'>Get Taskify For Free</Link>
+                    <Link href='/sign-up'>Get Taskify For Free</Link>
                 </Button>
             </div>
         </div>
